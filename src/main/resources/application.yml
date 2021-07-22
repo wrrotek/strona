@@ -1,0 +1,19 @@
+spring:
+  mail:
+    host: smtp.gmail.com
+    port: 465
+    username: wrrotek3@gmail.com
+    password: xyz
+    properties:
+      "mail.smtp.auth": true
+      "mail.smtp.starttls.enable": true
+      "mail.smtp.starttls.required": true
+      "mail.smtp.socketFactory.class": javax.net.ssl.SSLSocketFactory
+      "mail.debug": true
+#      auth: true
+#      starttls.enable: true
+#      ssl.enable : true
+
+logging:
+  level:
+    pl.javastart.email: DEBUG

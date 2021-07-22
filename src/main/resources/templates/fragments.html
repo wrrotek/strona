@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Formatting settings</title>
+</head>
+<body>
+
+<nav class="navbar navbar-light bg-light" id="navbar" th:fragment="navbar">
+    <form class="container-fluid justify-content-start">
+        <a class="nav-link" href="/">
+            <button class="btn btn-outline-success me-2" type="button">Strona główna</button>
+        </a>
+        <a class="nav-link" href="/oNas">
+            <button class="btn btn-sm btn-outline-secondary" type="button">O nas</button>
+        </a>
+        <a class="nav-link" href="/kontakt">
+            <button class="btn btn-sm btn-outline-secondary" type="button">Kontakt</button>
+        </a>
+    </form>
+</nav>
+</body>
+
+<body class="d-flex flex-column min-vh-100" id="footer">
+<footer class="text-center p-4 fixed-bottom" style="background-color: rgba(0, 0, 0, 0.05); position: fixed;"  th:fragment="footer">
+    <div  >
+        © 2021 Copyright xyz Company
+    </div>
+
+</footer>
+
+</body>
+</html>
